@@ -1,40 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@0,100..900;1,100..900&display=swap');
 
 
-body {
+* {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+
+body {
     font-family: Roboto, serif;
     font-weight: 400;
-    box-sizing: border-box;
 }
 
 .header-contaner {
     background-color: #1F2937;
-    dis
 }
 
 .header {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+.menu {
+    /* border: 1px solid #fff; For debugging */
+    width: 900px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 16px;
-    max-width: 900px;
 }
-
-.logo {
-    font-size: 24px;
-    color: #F9FAF8;
-}
-
-.links {
-    /* color: #E5E7EB; */
-    display: flex;
-    gap: 10px;
-}
-
-a {
-    color: #E5E7EB;
-    text-decoration: none;
-}
-
