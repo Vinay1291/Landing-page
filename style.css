@@ -9,7 +9,7 @@
 }
 
 body {
-    font-family: Roboto, arial;
+    font-family: Roboto;
     /* font-weight: 200; */
 }
 
@@ -61,8 +61,8 @@ body {
 }
 
 .hero-section {
-    border: red solid 2px;
-    height: 300px;
+    /* border: red solid 2px; */
+    /* height: 300px; */
     width: 100%;
 }
 
@@ -95,4 +95,13 @@ body {
     border-radius: 3px;
     text-align: center;
     font-weight: bold;
+}
+
+.hero-image {
+    background-color: gray;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
 }
