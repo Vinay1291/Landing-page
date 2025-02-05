@@ -107,3 +107,36 @@ body {
     color: #E5E7EB;
 }
 
+/* Information section  */
+
+.info-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    /* text-align: center; */
+    margin-bottom: 30px;
+}
+
+.info-image {
+    border: #3882F6 3px solid;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.info-contaner {
+    width: 150px;
+    text-align: center;
+}
+
+.info-main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.info {
+    text-align: center;
+    margin-bottom: 60px;
+}
