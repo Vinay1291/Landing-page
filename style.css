@@ -50,6 +50,7 @@ body {
     background-color: #1F2937;
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 .hero {
@@ -66,14 +67,14 @@ body {
     width: 100%;
 }
 
-.left {
+/* .left {
     
     
 }
 
 .image {
 
-}
+} */
 
 .hero-line {
     font-size: 48px;
@@ -105,3 +106,4 @@ body {
     align-items: center;
     color: #E5E7EB;
 }
+
