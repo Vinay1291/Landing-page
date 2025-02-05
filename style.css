@@ -101,6 +101,7 @@ body {
 .hero-img {
     height: inherit;
     width: auto;
+    border-radius: 100px;
 }
 
 .hero-image {
