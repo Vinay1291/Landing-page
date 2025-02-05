@@ -98,8 +98,14 @@ body {
     font-weight: bold;
 }
 
+.hero-img {
+    height: inherit;
+    width: auto;
+}
+
 .hero-image {
-    background-color: gray;
+    /* background-color: gray; */
+    background-attachment: fixed;
     height: 200px;
     display: flex;
     justify-content: center;
