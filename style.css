@@ -170,7 +170,35 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 50px 0; */
+    /* margin-bottom: 60px; */
 }
 
 /* Action section */
+
+.act-button {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border: 2px #E5E7EB solid;
+    padding: 5px 24px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.act {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    height: 100px;
+    width: 870px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.action {
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
